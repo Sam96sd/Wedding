@@ -223,6 +223,12 @@ section{min-height:100svh;display:flex;flex-direction:column;align-items:center;
 .cd-done{font-size:19px;color:var(--ink);line-height:2}
 
 .closing{position:relative}
+.credit{position:relative;z-index:2;text-align:center;margin-top:-46px;padding-bottom:34px}
+.credit a{display:inline-block;font-size:11.5px;letter-spacing:.06em;color:var(--ink-soft);
+  opacity:.40;text-decoration:none;border-bottom:1px solid rgba(138,104,41,.20);
+  padding-bottom:2px;transition:opacity .3s}
+.credit a:hover{opacity:.78}
+.credit a:focus-visible{outline:2px solid var(--gold-deep);outline-offset:3px;opacity:.85}
 .close-box{position:relative;max-width:332px;margin:0 auto;padding:46px 24px 48px}
 .close-box > .spray.bl{bottom:8px;left:8px;transform:rotate(180deg)}
 .closing .big{font-family:'Aref Ruqaa',serif;font-size:clamp(26px,7.5vw,32px);color:var(--ink);line-height:1.8}
@@ -465,6 +471,10 @@ section{min-height:100svh;display:flex;flex-direction:column;align-items:center;
       </div>
     </div>
   </section>
+
+  <div class="credit">
+    <a href="https://wa.me/963947941447" target="_blank" rel="noopener">إعداد: سامر سعد</a>
+  </div>
 </main>
 
 <div class="hint" id="hint" aria-hidden="true">
